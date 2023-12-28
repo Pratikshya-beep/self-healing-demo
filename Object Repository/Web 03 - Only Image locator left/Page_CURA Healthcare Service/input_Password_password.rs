@@ -7,20 +7,18 @@
    <imagePath>Screenshots/Targets/input_Password_password.png</imagePath>
    <selectorCollection>
       <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/input_Password_password.png</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-password-broken']</value>
+         <value>//section[@id='login']/div/div/div[2]/form/div[3]/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value>Screenshots/Targets/input_Password_password.png</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

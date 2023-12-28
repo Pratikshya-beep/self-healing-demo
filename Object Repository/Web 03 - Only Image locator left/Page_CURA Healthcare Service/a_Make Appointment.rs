@@ -7,20 +7,18 @@
    <imagePath>Screenshots/Targets/a_Make Appointment.png</imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[@id='btn-make-appointment___Katalon-Studio-Team-has-broken-this-locator']</value>
+         <value>//a[@id='btn-make-appointment']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
          <value>Screenshots/Targets/a_Make Appointment.png</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

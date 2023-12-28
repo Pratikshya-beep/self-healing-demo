@@ -38,7 +38,8 @@ WebUI.click(findTestObject('Object Repository/Web 04 - Image Savior/Page_Katalon
 
 WebUI.click(findTestObject('Web 04 - Image Savior/Page_Katalon Shop  Katalon Ecommerce/img_Ninja Thumbnail (Broken)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Web 04 - Image Savior/Page_Flying Ninja  Katalon Shop/h1_Flying Ninja'), 'Flying Ninja')
+WebUI.verifyElementText(findTestObject('Object Repository/Web 04 - Image Savior/Page_Flying Ninja  Katalon Shop/h1_Flying Ninja'), 
+    'Flying Ninja')
 
 WebUI.click(findTestObject('Web 04 - Image Savior/Page_Flying Ninja  Katalon Shop/button_Add to cart (Broken)'))
 
@@ -62,7 +63,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Web 04 - Image Savior/
     'Coupon code applied successfully.')
 
 // Clean stage
-WebUI.executeJavaScript('document.querySelector(\'[href="http://cms.demo.katalon.com/cart/?remove_coupon=kbaw662s"]\').click()', null)
+WebUI.executeJavaScript('document.querySelector(\'[href="http://cms.demo.katalon.com/cart/?remove_coupon=kbaw662s"]\').click()', 
+    null)
 
 WebUI.click(findTestObject('Object Repository/Web 04 - Image Savior/Page_Cart  Katalon Shop/a_Remove item'))
 
